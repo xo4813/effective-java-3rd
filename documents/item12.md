@@ -1,6 +1,6 @@
 # 아이템 12. toString을 항상 재정의하라
 
-## Obect의 Default toString 메서드는 작성한 클래스의 적합한 문자열을 반환하는 경우는 거의 없다
+## Object의 Default toString 메서드는 작성한 클래스의 적합한 문자열을 반환하는 경우는 거의 없다
 
 1. Object의 Default toString 메서드는 단순히 ``클래스 이름@16진수 해쉬 코드``를 반환한다
  ex) 클래스 이름이 Jackcoding이면, Jackcoding@adbbd 
